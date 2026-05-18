@@ -25,7 +25,10 @@
             <input type="checkbox" name="Hobi3" value="Olahraga"> Olahraga <br>
             <input type="checkbox" name="Hobi4" value="Musik"> Musik <br>
             <input type="checkbox" name="Hobi5" value="Mancing"> Mancing <br>
-    <!-- Hobi : <input type="checkbox" name="Hobi[]" value="Membaca"> Membaca
+
+
+    <!-- ini versi yang lebih sederhana, tapi saya buat 5 checkbox dengan nama yang berbeda agar lebih mudah untuk menampilkan hobi yang dipilih di halaman simpan.php, karena jika menggunakan array checkbox dengan nama yang sama (Hobi[]), maka kita perlu menggunakan loop untuk menampilkan hobi yang dipilih, sedangkan dengan nama checkbox yang berbeda (Hobi1, Hobi2, dll), kita bisa langsung memeriksa setiap checkbox secara terpisah dan menampilkan hobi yang dipilih tanpa perlu loop.
+            Hobi : <input type="checkbox" name="Hobi[]" value="Membaca"> Membaca
             <input type="checkbox" name="Hobi[]" value="Menulis"> Menulis
             <input type="checkbox" name="Hobi[]" value="Olahraga"> Olahraga
             <input type="checkbox" name="Hobi[]" value="Musik"> Musik 

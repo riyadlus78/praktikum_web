@@ -45,6 +45,7 @@ if (is_uploaded_file($_FILES['File']['tmp_name'])) {
     }
     echo "<img src='" . htmlspecialchars($upload_file) . "' alt='Foto Profil' style='max-width: 200px; height: auto; border-radius: 8px; margin-top: 10px;'>";
 }
+// jika menggunakan array checkbox dengan nama yang sama (Hobi[]), maka kita perlu menggunakan loop untuk menampilkan hobi yang dipilih, sedangkan dengan nama checkbox yang berbeda (Hobi1, Hobi2, dll), kita bisa langsung memeriksa setiap checkbox secara terpisah dan menampilkan hobi yang dipilih tanpa perlu loop.
 // $nama = $_POST['Nama'];
 // $tempat = $_POST['Tempat'];
 // $tanggalLahir = $_POST['TanggalLahir'];

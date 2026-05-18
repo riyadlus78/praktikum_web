@@ -1,5 +1,5 @@
 <?php
-// Membuat array asosiatif
+/*Membuat array asosiatif*/
 $buah = array(
     "Apel" => 15000,
     "Jeruk" => 10000,
@@ -35,7 +35,7 @@ echo "<b>Setelah krsort() (Kunci Desc):</b><br>";
 print_r($buah);
 ?>
 
-//pengurutan array asosiatif dibedakan berdasarkan apa yang ingin diurutkan (Kunci atau Nilai) dan arahnya (Menaik atau Menurun).
+/*pengurutan array asosiatif dibedakan berdasarkan apa yang ingin diurutkan (Kunci atau Nilai) dan arahnya (Menaik atau Menurun).*/
 
 //asort() (Associative Sort):
 Mengurutkan isi array berdasarkan Nilainya (Value) secara Ascending (dari kecil ke besar). Fungsi ini tetap mempertahankan hubungan antara kunci dan nilainya.
