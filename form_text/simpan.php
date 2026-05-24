@@ -62,4 +62,21 @@ if (is_uploaded_file($_FILES['File']['tmp_name'])) {
 // echo "Alamat: " . $alamat . "<br>";
 // echo "Agama: " . $agama . "<br>";
 // echo "Hobi: " . $hobi . "<br>";
+$usernameBenar = "admin";
+$passwordBenar = "12345";
+
+$username = $_POST['Username'];
+$password = $_POST['Password'];
+
+if($username == $usernameBenar && $password == $passwordBenar){
+
+    echo "<h2>Login Berhasil</h2>";
+    echo "Selamat datang, ".$username;
+
+}else{
+
+    echo "<h2>Login Gagal</h2>";
+    echo "Username atau Password salah";
+
+}
 ?>
